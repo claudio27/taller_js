@@ -15,7 +15,7 @@ var str = buf.toString();
 
 console.log(str.split('\n').length - 1 );  // Pero el archivo de test no tiene el delimitador '\n'
 //console.log(buf.length);  
-
+console.log(str.split('\n'));
 
 // fs.readFile("eje-2_13.js","utf8",function(err,data){
 //     console.log("err: " + err);
